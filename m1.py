@@ -1,6 +1,6 @@
 from os import system
 from time import sleep
-system("cls")
+
 
 
 class Time :
@@ -63,7 +63,7 @@ class Time :
 time=Time(0,0,0)
 
 while True:
-    
+    system("cls")
     print(time.tostring())
     time.nextsecond()
     sleep(1)
